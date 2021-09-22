@@ -18,7 +18,8 @@ public class TipoString {
 			 System.out.println(s.length()); //tamanho da string 
 			 System.out.println(s.equalsIgnoreCase("bom dia " + nome +" !!!!"));  
 			 String frase =  String.format("\nO senhor é meu pastor, e nada me faltara"); 
-			 System.out.println(frase);
+			 System.out.println(frase); 
+			 scanner.close();
 			 
 			 
 			 

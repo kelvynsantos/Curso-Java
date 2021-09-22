@@ -1,4 +1,4 @@
-package controle;
+package EstruturasDeControle;
 
 import javax.swing.JOptionPane;
 
