@@ -1,6 +1,6 @@
 # Default ignored files
 /shelf/
 /.idea/workspace.xml
-.idea
+/.idea/
 /out/
-Curso-Java.xml
+Curso-Java.iml
