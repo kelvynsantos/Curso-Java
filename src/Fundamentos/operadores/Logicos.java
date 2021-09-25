@@ -1,4 +1,4 @@
-package fundamentos.operadores;
+package Fundamentos.operadores;
 
 public class Logicos {
 

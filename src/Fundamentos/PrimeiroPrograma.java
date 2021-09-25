@@ -1,4 +1,4 @@
-package fundamentos;
+package Fundamentos;
 //import java.util.Random;
 public class PrimeiroPrograma { 
 	public static void main(String[] args) { 

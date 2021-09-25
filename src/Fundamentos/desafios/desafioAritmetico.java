@@ -1,4 +1,4 @@
-package fundamentos.desafios;
+package Fundamentos.desafios;
 
 public class desafioAritmetico {
 

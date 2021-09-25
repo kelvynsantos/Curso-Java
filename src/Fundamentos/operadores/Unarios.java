@@ -1,4 +1,4 @@
-package fundamentos.operadores;
+package Fundamentos.operadores;
 
 public class Unarios {
 	public static void main(String[] args) {
