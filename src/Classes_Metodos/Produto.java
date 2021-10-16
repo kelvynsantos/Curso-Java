@@ -1,19 +1,17 @@
-package Classes_Metodos.Classe;
+package Classes_Metodos;
 
 public class Produto {
     String nome;
     double preco;
-    double desconto;
+     static double desconto  = 0.20;
 
     Produto(){
 
     }
 
-    Produto(String nomeInicial, double precoProduto, double descontoProduto) {
+    Produto(String nomeInicial, double precoProduto) {
         nome = nomeInicial;
         preco = precoProduto;
-        desconto = descontoProduto;
-
     }
     double precoComDesconto(double descontoGerente) {
 

@@ -1,4 +1,4 @@
-package Classes_Metodos.Classe;
+package Classes_Metodos;
 
 public class Data {
      int dia;

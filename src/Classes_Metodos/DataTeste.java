@@ -1,4 +1,4 @@
-package Classes_Metodos.Classe;
+package Classes_Metodos;
 
 public class DataTeste {
     public static void main(String[] args) {
