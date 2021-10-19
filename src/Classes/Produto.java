@@ -1,4 +1,4 @@
-package Classes_Metodos;
+package Classes;
 
 public class Produto {
     String nome;
