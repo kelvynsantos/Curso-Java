@@ -2,5 +2,6 @@
 /shelf/
 /.idea/
 /out/
-/src//JDBC/conexao.properties
+/src/conexao.properties
 Curso-Java.iml
+libs
