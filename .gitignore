@@ -4,4 +4,6 @@
 /out/
 /src/conexao.properties
 Curso-Java.iml
-libs
+.classpath
+.project
+/libs/
