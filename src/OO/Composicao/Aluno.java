@@ -10,7 +10,7 @@ public class Aluno {
     }
     void addCurso(Curso curso) {
         this.cursos.add(curso);
-        curso.alunos.add(this);
+        curso.getAlunos().add(this);
     }
     public String toString() {
         return nome;

@@ -3,7 +3,7 @@ package OO.Composicao;
 public class CursoTeste {
     public static void main(String[] args) {
         Aluno a1 = new Aluno("Maria");
-        Aluno a2 = new Aluno("João");
+        Aluno a2 = new Aluno("Joï¿½o");
         Aluno a3 = new Aluno("Marcos");
 
         Curso c1 = new Curso("Java Completo");
@@ -20,7 +20,7 @@ public class CursoTeste {
         a2.addCurso(c3);
         a3.addCurso(c3);
 
-        for (Aluno aluno: c1.alunos) {
+        for (Aluno aluno: c1.getAlunos()) {
             System.out.println("alunos do curso " + c1.nome);
             System.out.println("nomes: " + aluno.nome);
         }
