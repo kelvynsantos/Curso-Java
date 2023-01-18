@@ -5,7 +5,7 @@ public class Ferrari extends Carro implements Esportivo {
         this(321);
     }
     Ferrari( int VelMax) {
-        super(VelMax);
+        super(VelMax, VelMax);
         setDelta(15);
 
     }

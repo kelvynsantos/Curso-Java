@@ -5,7 +5,7 @@ public class Carro {
     public int VelAtual ;
     private int delta = 5;
 
-     protected Carro (int velMaxima) {
+     protected Carro (int velMaxima, int velMax) {
          VelMax = velMaxima;
      }
 
