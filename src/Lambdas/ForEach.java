@@ -19,6 +19,10 @@ public class ForEach {
 
         //  method reference
         apv.forEach(System.out::println);
-        
+        apv.forEach(nome -> myPrint(nome));
+        apv.forEach(ForEach::myPrint);
+    }
+    static void myPrint(String nome){
+        System.out.printf("Hi, my name is %s", nome);
     }
 }
