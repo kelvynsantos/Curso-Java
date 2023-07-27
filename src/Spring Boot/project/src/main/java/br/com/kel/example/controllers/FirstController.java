@@ -1,9 +1,6 @@
 package br.com.kel.example.controllers;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class FirstController {
@@ -11,6 +8,11 @@ public class FirstController {
     @GetMapping(path = {"/hello", "/ola"})
     public String hello() {
         return "hello Spring Boot";
+    }
+
+    @PostMapping(path="/ola")
+    public String saudacao(){
+        return "Ola String Boot (POST)";
     }
 
 }
