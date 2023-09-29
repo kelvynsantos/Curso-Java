@@ -27,6 +27,7 @@ public class Par<C,V> {
     }
 
     @Override
+//    @SuppressWarnings("rawtypes")
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Par<?, ?> par)) return false;
