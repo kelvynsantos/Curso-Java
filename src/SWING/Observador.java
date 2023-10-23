@@ -1,6 +1,7 @@
 package src.SWING;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class Observador {
     public static void main(String[] args) {
